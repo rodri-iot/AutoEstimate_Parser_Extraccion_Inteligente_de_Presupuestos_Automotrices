@@ -1,0 +1,21 @@
+# --- Extracción y Procesamiento de Datos ---
+pdfplumber==0.11.4
+pandas==2.2.3
+numpy==2.1.3
+
+# --- Interfaz de Usuario (MVP y Pruebas) ---
+streamlit==1.41.0
+watchdog==4.0.0
+
+# --- Lógica de Data Science y Matching ---
+rapidfuzz==3.10.1
+python-dotenv==1.0.1
+
+# --- Calidad de Código y Pruebas ---
+pytest==8.3.3
+black==24.10.0
+
+# --- Servidor de Inferencia (Para cuando tecnología pida la API) ---
+fastapi==0.115.0
+uvicorn==0.32.0
+python-multipart==0.0.12
